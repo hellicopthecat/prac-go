@@ -17,6 +17,7 @@ func (d Dictionary) Search(word string) (string, error) {
 	return "", errNotFound
 }
 
+// TODO: helfo
 // Add a word to the dictionary
 func (d Dictionary) Add(word string, def string) error {
 	_, err := d.Search(word)
